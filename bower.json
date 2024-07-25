@@ -1,9 +1,9 @@
 {
   "name": "tincan",
-  "version": "0.50.0",
-  "homepage": "http://rusticisoftware.github.com/TinCanJS/",
+  "version": "1.0.0",
+  "homepage": "https://github.com/putyatairyna/TinCanJS/",
   "authors": [
-    "Brian J. Miller <brian.miller@rusticisoftware.com>"
+    "Iryna Putyata"
   ],
   "description": "A JavaScript library for talking Tin Can to the world.",
   "keywords": [

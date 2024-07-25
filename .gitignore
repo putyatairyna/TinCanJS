@@ -2,3 +2,4 @@
 doc/api/*
 node_modules/
 test/config.js
+.idea

@@ -1,7 +1,7 @@
 {
   "name": "tincanjs",
   "description": "Experience API (Tin Can API) Library",
-  "version": "0.50.0",
+  "version": "1.0.0",
   "private": false,
   "license": "Apache-2.0",
   "main": "build/tincan-node.js",
@@ -15,16 +15,10 @@
     "text-encoding": "0.6.0",
     "arraybuffer-slice": "0.1.2"
   },
-  "author": "Rustici Software <support@tincanapi.com>",
-  "contributors": [
-    {
-      "name": "Brian J. Miller",
-      "email": "brian.miller@rusticisoftware.com"
-    }
-  ],
+  "author": "Iryna Putyata",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RusticiSoftware/TinCanJS.git"
+    "url": "git+https://github.com/putyatairyna/TinCanJS.git"
   },
   "keywords": [
     "tincan",
