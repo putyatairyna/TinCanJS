@@ -1,3 +1,16 @@
+Introduction
+-------------
+This is a fork of original [TinCanJS](https://github.com/RusticiSoftware/TinCanJS) package.
+
+The primary goal of this fork is to remove code used to support unsupported browsers.
+
+The following libraries have been removed:
+- [polyfills](https://www.npmjs.com/package/js-polyfills) (used for IE10)
+- [text-encoding](https://www.npmjs.com/package/text-encoding) (used for IE and Safari <= 10)
+- [arraybuffer.slice](https://www.npmjs.com/package/arraybuffer.slice) (used for IE10)
+
+-------------
+
 A JavaScript library for implementing the Experience API (Tin Can API).
 
 [![Build Status](https://travis-ci.org/RusticiSoftware/TinCanJS.png)](https://travis-ci.org/RusticiSoftware/TinCanJS)
