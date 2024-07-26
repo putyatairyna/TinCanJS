@@ -1,11 +1,11 @@
 {
-  "name": "tincan",
-  "version": "1.0.0",
+  "name": "@putyatairyna/tincanjs",
+  "version": "0.50.1-fork",
   "homepage": "https://github.com/putyatairyna/TinCanJS/",
   "authors": [
     "Iryna Putyata"
   ],
-  "description": "A JavaScript library for talking Tin Can to the world.",
+  "description": "Experience API (Tin Can API) Library",
   "keywords": [
     "tincan",
     "tin can",

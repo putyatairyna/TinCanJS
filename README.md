@@ -2,11 +2,11 @@ Introduction
 -------------
 This is a fork of original [TinCanJS](https://github.com/RusticiSoftware/TinCanJS) package.
 
-The primary goal of this fork is to remove code used to support unsupported browsers.
+The primary goal of this fork is to remove code used to support unsupported browsers (IE, Safari 10.0 and earlier versions).
 
 The following libraries have been removed:
 - [polyfills](https://www.npmjs.com/package/js-polyfills) (used for IE10)
-- [text-encoding](https://www.npmjs.com/package/text-encoding) (used for IE and Safari <= 10)
+- [text-encoding](https://www.npmjs.com/package/text-encoding) (used for IE, Safari 10.0 and earlier versions)
 - [arraybuffer.slice](https://www.npmjs.com/package/arraybuffer.slice) (used for IE10)
 
 -------------
@@ -32,8 +32,7 @@ Browser Usage
 TinCanJS is available via `npm` and Bower.
 
 The browser environment is well tested and supports two kinds of Cross Origin requests which
-is sufficient to cover most versions of Chrome, FireFox, Safari as well as IE 8+. IE 6+ are
-supported for non-CORS (because they don't support it).
+is sufficient to cover most versions of Chrome, FireFox, Safari.
 
 Include *one* of build/tincan-min.js or build/tincan.js as follows:
 
@@ -51,7 +50,7 @@ when using this environment.
 
 Install via:
 
-    npm install tincanjs
+    npm install @putyatairyna/tincanjs
 
 And within code:
 
@@ -69,11 +68,6 @@ Attachment Support
 
 Sending and retrieving statements with attachments via the multipart/mixed request/response
 cycle works end to end with binary attachments in Node.js 4+ and in the typical modern browsers:
-Chrome 53+, Firefox 48+, Safari 9+, IE 10+ (current versions at time of implementation, older versions
+Chrome 53+, Firefox 48+, Safari 10+ (current versions at time of implementation, older versions
 may work without changes but have not been tested). Attachments without included content (those using
 only the `fileUrl` property) should be supported in all environments supported by the library.
-
-Several polyfills (TypedArrays, ArrayBuffer w/ slice, Blob, TextDecoder/TextEncoder) are needed
-to support various browser versions, if you are targeting a recent enough set of browsers you
-can reduce the overall size of the built library by commenting out those polyfills in the
-`Gruntfile.js` file and building yourself.
