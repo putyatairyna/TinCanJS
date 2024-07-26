@@ -2,4 +2,7 @@
 doc/api/*
 node_modules/
 test/config.js
+
+# Fork changes
 .idea
+.npmrc
