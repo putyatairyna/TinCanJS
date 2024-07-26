@@ -1,4 +1,4 @@
-"1.0.0";
+"0.50.1-fork";
 /*
 CryptoJS v3.1.2
 code.google.com/p/crypto-js
