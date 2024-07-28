@@ -7,3 +7,4 @@ build/tincan-min.map
 .travis.yml
 yuidoc.json
 bower.json
+.idea
